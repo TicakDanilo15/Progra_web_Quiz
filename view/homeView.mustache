@@ -1,0 +1,147 @@
+{{>header}}
+
+<section class="container-fluid px-4 px-lg-5">
+
+    <div class="hero-card row align-items-center g-4">
+        <div class="col-lg-6">
+            <h1 class="hero-title">
+                ¡Poné a prueba<br>
+                tus <span>conocimientos!</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Respondé, sumá puntos y llegá a la cima del <strong>ranking</strong>
+            </p>
+
+            <a href="/partida/nueva" class="btn btn-hero">
+                ▶ NUEVA PARTIDA
+            </a>
+        </div>
+
+        <div class="col-lg-6 text-center">
+            <div class="brain-stage">
+                <div class="category-bubble bubble-history">🏛️</div>
+                <div class="category-bubble bubble-science">🧪</div>
+                <div class="category-bubble bubble-sports">⚽</div>
+                <div class="category-bubble bubble-art">🎨</div>
+                <div class="brain-mascot">🧠</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mt-2">
+        <div class="col-md-4">
+            <div class="action-card card-ranking h-100">
+                <div class="action-icon">🏆</div>
+                <h3>RANKING</h3>
+                <p>Mirá los mejores jugadores y competí por el primer lugar.</p>
+                <a href="/ranking" class="btn btn-outline-info w-100 fw-bold">VER RANKING</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="action-card card-question h-100">
+                <div class="action-icon">❔</div>
+                <h3>CREAR PREGUNTA</h3>
+                <p>Sumá tus propias preguntas y ayudá a que el juego sea mejor para todos.</p>
+                <a href="/preguntas" class="btn btn-outline-success w-100 fw-bold">CREAR AHORA</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="action-card card-profile h-100">
+                <div class="action-icon">👤</div>
+                <h3>MI PERFIL</h3>
+                <p>Editá tu perfil, mirá tus estadísticas y personalizá tu experiencia.</p>
+                <a href="/perfil" class="btn btn-outline-light w-100 fw-bold">IR A MI PERFIL</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mt-2">
+        <div class="col-lg-7">
+            <div class="panel-card">
+                <h3 class="section-title">MIS ÚLTIMAS PARTIDAS</h3>
+
+                {{#partidas}}
+                <div class="match-row">
+                    <div class="match-icon">{{icono}}</div>
+
+                    <div class="flex-grow-1">
+                        <div class="fw-bold text-white">{{categoria}}</div>
+                        <small class="text-secondary">{{fecha}}</small>
+                    </div>
+
+                    <span class="badge text-bg-{{resultadoClase}}">{{resultado}}</span>
+                    <span class="points">{{puntos}}</span>
+                    <span class="chevron">›</span>
+                </div>
+                {{/partidas}}
+
+                <div class="text-center mt-4">
+                    <a href="/partidas" class="btn btn-outline-purple">VER TODAS MIS PARTIDAS</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="panel-card mb-4">
+                <h3 class="section-title">ESTADÍSTICAS</h3>
+
+                <div class="stat-row">
+                    <span>⭐ Partidas jugadas</span>
+                    <strong>{{partidasJugadas}}</strong>
+                </div>
+
+                <div class="stat-row">
+                    <span>🎯 Preguntas correctas</span>
+                    <strong>{{preguntasCorrectas}}</strong>
+                </div>
+
+                <div class="stat-row">
+                    <span>✅ Porcentaje de aciertos</span>
+                    <strong class="text-warning">{{porcentajeAciertos}}%</strong>
+                </div>
+
+                <div class="stat-row">
+                    <span>🔥 Racha actual</span>
+                    <strong class="text-warning">{{rachaActual}}</strong>
+                </div>
+            </div>
+
+            <div class="panel-card">
+                <h3 class="section-title">LOGROS</h3>
+
+                <div class="achievement-row">
+                    <span class="achievement-icon gold">🏅</span>
+                    <div>
+                        <strong>Aprendiz</strong>
+                        <small>Respondé 10 preguntas</small>
+                    </div>
+                    <span class="check">✓</span>
+                </div>
+
+                <div class="achievement-row">
+                    <span class="achievement-icon blue">🎖️</span>
+                    <div>
+                        <strong>Jugador frecuente</strong>
+                        <small>Jugá 25 partidas</small>
+                    </div>
+                    <span class="check">✓</span>
+                </div>
+
+                <div class="achievement-row">
+                    <span class="achievement-icon purple">🏆</span>
+                    <div>
+                        <strong>Experto</strong>
+                        <small>Obtené 1000 puntos</small>
+                    </div>
+                    <span class="text-purple fw-bold">{{puntaje}}/1000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{{>footer}}

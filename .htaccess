@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Do not rewrite real files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# /controller/method -> index.php?controller=controller&method=method
+RewriteRule ^([^/]+)/([^/]+)/?$ index.php?controller=$1&method=$2 [QSA,L]
+
+# /controller -> index.php?controller=controller
+RewriteRule ^([^/]+)/?$ index.php?controller=$1 [QSA,L]

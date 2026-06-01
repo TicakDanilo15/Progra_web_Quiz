@@ -1,0 +1,188 @@
+[19:38:11] [INFO] VikingoController::ver
+[19:38:11] [INFO] SQL: SELECT * FROM guerreros
+[19:38:11] [INFO] VikingoController::ver
+[19:38:11] [INFO] SQL: SELECT * FROM guerreros
+[19:38:34] [INFO] VikingoController::ver
+[19:38:34] [INFO] SQL: SELECT * FROM guerreros
+[19:38:34] [INFO] VikingoController::ver
+[19:38:34] [INFO] SQL: SELECT * FROM guerreros
+[19:38:46] [INFO] VikingoController::ver
+[19:38:46] [INFO] SQL: SELECT * FROM guerreros
+[19:38:46] [INFO] VikingoController::ver
+[19:38:46] [INFO] SQL: SELECT * FROM guerreros
+[19:38:48] [INFO] VikingoController::ver
+[19:38:48] [INFO] SQL: SELECT * FROM guerreros
+[19:38:48] [INFO] VikingoController::ver
+[19:38:48] [INFO] SQL: SELECT * FROM guerreros
+[19:38:49] [INFO] VikingoController::ver
+[19:38:49] [INFO] SQL: SELECT * FROM guerreros
+[19:38:49] [INFO] VikingoController::ver
+[19:38:49] [INFO] SQL: SELECT * FROM guerreros
+[19:38:50] [INFO] VikingoController::ver
+[19:38:50] [INFO] SQL: SELECT * FROM guerreros
+[19:38:50] [INFO] VikingoController::ver
+[19:38:50] [INFO] SQL: SELECT * FROM guerreros
+[19:38:51] [INFO] VikingoController::ver
+[19:38:51] [INFO] SQL: SELECT * FROM guerreros
+[19:38:51] [INFO] VikingoController::ver
+[19:38:51] [INFO] SQL: SELECT * FROM guerreros
+[19:38:52] [INFO] VikingoController::ver
+[19:38:52] [INFO] SQL: SELECT * FROM guerreros
+[19:38:52] [INFO] VikingoController::ver
+[19:38:52] [INFO] SQL: SELECT * FROM guerreros
+[19:38:53] [INFO] VikingoController::ver
+[19:38:53] [INFO] SQL: SELECT * FROM guerreros
+[19:38:53] [INFO] VikingoController::ver
+[19:38:53] [INFO] SQL: SELECT * FROM guerreros
+[19:38:54] [INFO] VikingoController::ver
+[19:38:54] [INFO] SQL: SELECT * FROM guerreros
+[19:38:54] [INFO] VikingoController::ver
+[19:38:54] [INFO] SQL: SELECT * FROM guerreros
+[19:46:04] [INFO] VikingoController::ver
+[19:46:04] [INFO] SQL: SELECT * FROM guerreros
+[19:46:04] [INFO] VikingoController::ver
+[19:46:04] [INFO] SQL: SELECT * FROM guerreros
+[19:54:40] [INFO] VikingoController::ver
+[19:54:40] [INFO] SQL: SELECT * FROM guerreros
+[19:54:40] [INFO] VikingoController::ver
+[19:54:40] [INFO] SQL: SELECT * FROM guerreros
+[19:55:23] [INFO] VikingoController::ver
+[19:55:23] [INFO] SQL: SELECT * FROM guerreros
+[19:55:23] [INFO] VikingoController::ver
+[19:55:23] [INFO] SQL: SELECT * FROM guerreros
+[19:55:23] [INFO] VikingoController::ver
+[19:55:23] [INFO] SQL: SELECT * FROM guerreros
+[19:55:23] [INFO] VikingoController::ver
+[19:55:23] [INFO] SQL: SELECT * FROM guerreros
+[19:55:23] [INFO] VikingoController::ver
+[19:55:23] [INFO] SQL: SELECT * FROM guerreros
+[19:55:23] [INFO] VikingoController::ver
+[19:55:23] [INFO] SQL: SELECT * FROM guerreros
+[19:56:00] [INFO] VikingoController::ver
+[19:56:00] [INFO] SQL: SELECT * FROM guerreros
+[19:56:00] [INFO] VikingoController::ver
+[19:56:00] [INFO] SQL: SELECT * FROM guerreros
+[19:56:00] [INFO] VikingoController::ver
+[19:56:00] [INFO] SQL: SELECT * FROM guerreros
+[19:56:00] [INFO] VikingoController::ver
+[19:56:00] [INFO] SQL: SELECT * FROM guerreros
+[19:56:50] [INFO] VikingoController::ver
+[19:56:50] [INFO] SQL: SELECT * FROM guerreros
+[19:56:50] [INFO] VikingoController::ver
+[19:56:50] [INFO] SQL: SELECT * FROM guerreros
+[19:56:55] [INFO] VikingoController::ver
+[19:56:55] [INFO] SQL: SELECT * FROM guerreros
+[19:56:55] [INFO] VikingoController::ver
+[19:56:55] [INFO] SQL: SELECT * FROM guerreros
+[19:56:57] [INFO] VikingoController::ver
+[19:56:57] [INFO] SQL: SELECT * FROM guerreros
+[19:56:57] [INFO] VikingoController::ver
+[19:56:57] [INFO] SQL: SELECT * FROM guerreros
+[19:56:57] [INFO] VikingoController::ver
+[19:56:57] [INFO] SQL: SELECT * FROM guerreros
+[19:56:57] [INFO] VikingoController::ver
+[19:56:57] [INFO] SQL: SELECT * FROM guerreros
+[19:56:58] [INFO] VikingoController::ver
+[19:56:58] [INFO] SQL: SELECT * FROM guerreros
+[19:56:58] [INFO] VikingoController::ver
+[19:56:58] [INFO] SQL: SELECT * FROM guerreros
+[20:59:10] [INFO] HomeController::ver
+[20:59:10] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[20:59:10] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[20:59:10] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[20:59:10] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[20:59:10] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[20:59:10] [INFO] HomeController::ver
+[20:59:10] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[20:59:10] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[20:59:11] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[20:59:11] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[20:59:11] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[20:59:18] [INFO] HomeController::ver
+[20:59:18] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[20:59:18] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[20:59:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[20:59:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[20:59:18] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[20:59:18] [INFO] HomeController::ver
+[20:59:18] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[20:59:18] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[20:59:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[20:59:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[20:59:18] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[21:00:44] [INFO] HomeController::ver
+[21:00:44] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[21:00:44] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[21:00:44] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[21:00:44] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[21:00:44] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[21:00:44] [INFO] HomeController::ver
+[21:00:44] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[21:00:44] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[21:00:44] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[21:00:44] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[21:00:44] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[21:01:32] [INFO] HomeController::ver
+[21:01:32] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[21:01:32] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[21:01:32] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[21:01:32] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[21:01:32] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[21:01:32] [INFO] HomeController::ver
+[21:01:32] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[21:01:32] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[21:01:32] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[21:01:32] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[21:01:32] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[21:13:11] [INFO] HomeController::ver
+[21:13:11] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[21:13:11] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[21:13:11] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[21:13:11] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[21:13:11] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[21:13:12] [INFO] HomeController::ver
+[21:13:12] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[21:13:12] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[21:13:12] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[21:13:12] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[21:13:12] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida

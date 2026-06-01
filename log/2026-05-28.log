@@ -1,0 +1,71 @@
+[17:19:11] [INFO] VikingoController::ver
+[17:19:11] [INFO] SQL: SELECT * FROM guerreros
+[17:19:13] [INFO] VikingoController::ver
+[17:19:13] [INFO] SQL: SELECT * FROM guerreros
+[17:19:14] [INFO] VikingoController::ver
+[17:19:14] [INFO] SQL: SELECT * FROM guerreros
+[17:19:15] [INFO] VikingoController::ver
+[17:19:15] [INFO] SQL: SELECT * FROM guerreros
+[17:19:15] [INFO] VikingoController::ver
+[17:19:15] [INFO] SQL: SELECT * FROM guerreros
+[17:22:52] [INFO] VikingoController::ver
+[17:22:52] [INFO] SQL: SELECT * FROM guerreros
+[17:22:52] [INFO] VikingoController::ver
+[17:22:52] [INFO] SQL: SELECT * FROM guerreros
+[17:23:57] [INFO] VikingoController::ver
+[17:23:57] [INFO] SQL: SELECT * FROM guerreros
+[17:24:05] [INFO] VikingoController::ver
+[17:24:05] [INFO] SQL: SELECT * FROM guerreros
+[17:27:38] [INFO] VikingoController::ver
+[17:27:38] [INFO] SQL: SELECT * FROM guerreros
+[17:27:38] [INFO] VikingoController::ver
+[17:27:38] [INFO] SQL: SELECT * FROM guerreros
+[17:27:43] [INFO] VikingoController::alta (form)
+[17:27:43] [INFO] VikingoController::alta (form)
+[17:27:48] [INFO] VikingoController::editar - id=23
+[17:27:48] [INFO] SQL: SELECT * FROM guerreros WHERE id = ? [23]
+[17:27:48] [INFO] VikingoController::editar - id=23
+[17:27:48] [INFO] SQL: SELECT * FROM guerreros WHERE id = ? [23]
+[17:28:28] [INFO] VikingoController::ver
+[17:28:28] [INFO] SQL: SELECT * FROM guerreros
+[17:28:31] [INFO] VikingoController::alta (form)
+[17:28:36] [INFO] VikingoController::ver
+[17:28:36] [INFO] SQL: SELECT * FROM guerreros
+[17:28:37] [INFO] VikingoController::alta (form)
+[17:28:42] [INFO] VikingoController::ver
+[17:28:42] [INFO] SQL: SELECT * FROM guerreros
+[17:28:43] [INFO] VikingoController::editar - id=23
+[17:28:43] [INFO] SQL: SELECT * FROM guerreros WHERE id = ? [23]
+[17:30:46] [INFO] VikingoController::ver
+[17:30:46] [INFO] SQL: SELECT * FROM guerreros
+[17:30:46] [INFO] VikingoController::alta (form)
+[17:30:46] [INFO] VikingoController::editar - id=23
+[17:30:46] [INFO] SQL: SELECT * FROM guerreros WHERE id = ? [23]
+[17:30:46] [INFO] VikingoController::eliminar - id=23
+[17:30:46] [INFO] SQL: DELETE FROM guerreros WHERE id = ? [23]
+[17:31:02] [INFO] VikingoController::ver
+[17:31:02] [INFO] SQL: SELECT * FROM guerreros
+[17:31:03] [INFO] VikingoController::alta (form)
+[17:31:08] [INFO] VikingoController::ver
+[17:31:08] [INFO] SQL: SELECT * FROM guerreros
+[17:31:09] [INFO] VikingoController::editar - id=24
+[17:31:09] [INFO] SQL: SELECT * FROM guerreros WHERE id = ? [24]
+[17:31:14] [INFO] VikingoController::procesarEditar - id=24 nombre=Harald
+[17:31:14] [INFO] SQL: UPDATE guerreros SET nombre = ?, apodo = ?, clan = ?, fuerza = ? WHERE id = ? [Harald, Cabellera Hermosa, Noruega, 94, 24]
+[17:31:14] [INFO] VikingoController::ver
+[17:31:14] [INFO] SQL: SELECT * FROM guerreros
+[17:31:34] [INFO] VikingoController::editar - id=26
+[17:31:34] [INFO] SQL: SELECT * FROM guerreros WHERE id = ? [26]
+[17:31:36] [INFO] VikingoController::procesarEditar - id=26 nombre=Astrid
+[17:31:36] [INFO] SQL: UPDATE guerreros SET nombre = ?, apodo = ?, clan = ?, fuerza = ? WHERE id = ? [Astrid, La Valiente (casi), Hedeby, 87, 26]
+[17:31:36] [INFO] VikingoController::ver
+[17:31:36] [INFO] SQL: SELECT * FROM guerreros
+[17:31:39] [INFO] VikingoController::eliminar - id=26
+[17:31:39] [INFO] SQL: DELETE FROM guerreros WHERE id = ? [26]
+[17:31:39] [INFO] VikingoController::ver
+[17:31:39] [INFO] SQL: SELECT * FROM guerreros
+[17:31:40] [INFO] VikingoController::alta (form)
+[17:31:46] [INFO] VikingoController::procesarAlta - nombre=prueba
+[17:31:46] [INFO] SQL: INSERT INTO guerreros (nombre, apodo, clan, fuerza) VALUES (?, ?, ?, ?) [prueba, Cabellera Hermosa, Noruega, 50]
+[17:31:46] [INFO] VikingoController::ver
+[17:31:46] [INFO] SQL: SELECT * FROM guerreros
