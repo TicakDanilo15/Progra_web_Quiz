@@ -1,0 +1,54 @@
+{{>header}}
+
+<section class="container py-5">
+
+    <div class="panel-card">
+
+        <div class="text-center mb-5">
+            <h1 class="hero-title">
+                Ranking
+            </h1>
+        </div>
+
+        <div class="table-responsive">
+
+            <table class="table table-dark table-hover align-middle ranking-table">
+
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Jugador</th>
+                        <th>Puntaje</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {{#usuarios}}
+                    <tr>
+                        <td class="fw-bold">
+                            {{posicion}}º
+                        </td>
+
+                        <td>
+                                <span class="fw-bold">
+                                    {{username}}
+                                </span>
+                            </div>
+                        </td>
+
+                        <td class="text-warning fw-bold">
+                            {{puntaje}} pts
+                        </td>
+                    </tr>
+                    {{/usuarios}}
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</section>
+
+{{>footer}}

@@ -37,6 +37,14 @@ class Configurator {
     {
         return new Router($this, 'home', 'ver');
     }
+    private function getRankingModel()
+    {
+        return new RankingModel($this->getDatabase());
+    } 
+    public function getRankingController()
+    {
+        return new RankingController($this->getRankingModel(), $this->getRenderer(), new Request());
+    }
 
     public function getOrDefault($controllerName, $defaultControllerName)
     {

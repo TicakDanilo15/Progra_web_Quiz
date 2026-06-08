@@ -1,0 +1,673 @@
+[16:23:14] [INFO] HomeController::ver
+[16:23:14] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:14] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:14] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:14] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:14] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:14] [INFO] HomeController::ver
+[16:23:14] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:14] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:14] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:14] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:14] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:17] [INFO] HomeController::ver
+[16:23:17] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:17] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:17] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:17] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:17] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:17] [INFO] HomeController::ver
+[16:23:17] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:17] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:17] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:17] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:17] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:18] [INFO] HomeController::ver
+[16:23:18] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:18] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:18] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:18] [INFO] HomeController::ver
+[16:23:18] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:18] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:18] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:19] [INFO] HomeController::ver
+[16:23:19] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:19] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:19] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:19] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:19] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:19] [INFO] HomeController::ver
+[16:23:19] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:19] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:19] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:19] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:19] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:20] [INFO] HomeController::ver
+[16:23:20] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:20] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:20] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:20] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:20] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:20] [INFO] HomeController::ver
+[16:23:20] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:20] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:20] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:20] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:20] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:22] [INFO] HomeController::ver
+[16:23:22] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:22] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:22] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:22] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:22] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:22] [INFO] HomeController::ver
+[16:23:22] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:22] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:22] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:22] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:22] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:23] [INFO] HomeController::ver
+[16:23:23] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:23] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:23] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:23] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:23] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:23] [INFO] HomeController::ver
+[16:23:23] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:23] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:23] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:23] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:23] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:24] [INFO] HomeController::ver
+[16:23:24] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:24] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:24] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:24] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:24] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:24] [INFO] HomeController::ver
+[16:23:24] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:24] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:24] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:24] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:24] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:25] [INFO] HomeController::ver
+[16:23:25] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:25] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:25] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:25] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:25] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:25] [INFO] HomeController::ver
+[16:23:25] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:25] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:25] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:25] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:25] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:25] [INFO] HomeController::ver
+[16:23:25] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:25] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:25] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:25] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:25] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:25] [INFO] HomeController::ver
+[16:23:25] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:25] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:25] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:25] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:25] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:36] [INFO] HomeController::ver
+[16:23:36] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:36] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:36] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:36] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:36] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:23:36] [INFO] HomeController::ver
+[16:23:36] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:23:36] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:23:36] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:23:36] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:23:36] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:24:26] [INFO] HomeController::ver
+[16:24:26] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:24:26] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:24:26] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:24:26] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:24:26] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:24:26] [INFO] HomeController::ver
+[16:24:26] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:24:26] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:24:26] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:24:26] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:24:26] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:24:27] [INFO] HomeController::ver
+[16:24:27] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:24:27] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:24:27] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:24:27] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:24:27] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:24:27] [INFO] HomeController::ver
+[16:24:27] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:24:27] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:24:27] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:24:27] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:24:27] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:25:56] [INFO] HomeController::ver
+[16:25:56] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:25:56] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:25:56] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:25:56] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:25:56] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:25:56] [INFO] HomeController::ver
+[16:25:56] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:25:56] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:25:56] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:25:56] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:25:56] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:25:57] [INFO] HomeController::ver
+[16:25:57] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:25:57] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:25:57] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:25:57] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:25:57] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:25:57] [INFO] HomeController::ver
+[16:25:57] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:25:57] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:25:57] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:25:57] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:25:57] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:25:58] [INFO] RankingController::ver
+[16:25:58] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:26:35] [INFO] RankingController::ver
+[16:26:35] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:28:39] [INFO] RankingController::ver
+[16:28:39] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:28:39] [INFO] HomeController::ver
+[16:28:39] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:28:39] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:28:39] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:28:39] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:28:39] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:28:59] [INFO] HomeController::ver
+[16:28:59] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:28:59] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:28:59] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:28:59] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:28:59] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:28:59] [INFO] HomeController::ver
+[16:28:59] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:28:59] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:28:59] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:28:59] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:28:59] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:29:05] [INFO] RankingController::ver
+[16:29:05] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:29:05] [INFO] HomeController::ver
+[16:29:05] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:29:05] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:29:05] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:29:05] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:29:05] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:29:09] [INFO] HomeController::ver
+[16:29:09] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:29:09] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:29:09] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:29:09] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:29:09] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:29:09] [INFO] HomeController::ver
+[16:29:09] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:29:09] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:29:09] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:29:09] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:29:09] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:29:12] [INFO] HomeController::ver
+[16:29:12] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:29:12] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:29:12] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:29:12] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:29:12] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:29:12] [INFO] HomeController::ver
+[16:29:12] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:29:12] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:29:12] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:29:12] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:29:12] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:31:11] [INFO] RankingController::ver
+[16:31:11] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:31:12] [INFO] HomeController::ver
+[16:31:12] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:31:12] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:31:12] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:31:12] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:31:12] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:31:18] [INFO] HomeController::ver
+[16:31:18] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:31:18] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:31:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:31:18] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:31:18] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:31:19] [INFO] HomeController::ver
+[16:31:19] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:31:19] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:31:19] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:31:19] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:31:19] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:31:57] [INFO] RankingController::ver
+[16:31:57] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:31:57] [INFO] HomeController::ver
+[16:31:57] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:31:57] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:31:57] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:31:57] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:31:57] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:34:50] [INFO] RankingController::ver
+[16:34:50] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:34:50] [INFO] HomeController::ver
+[16:34:50] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:34:50] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:34:50] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:34:50] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:34:50] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:35:13] [INFO] RankingController::ver
+[16:35:13] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:35:14] [INFO] HomeController::ver
+[16:35:14] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:35:14] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:35:14] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:35:14] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:35:14] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:37:11] [INFO] RankingController::ver
+[16:37:11] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:37:11] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:37:12] [INFO] RankingController::ver
+[16:37:12] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:37:12] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:38:29] [INFO] RankingController::ver
+[16:38:29] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:38:29] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:38:59] [INFO] RankingController::ver
+[16:38:59] [INFO] SQL: SELECT username, puntaje
+                FROM usuario
+                ORDER BY puntaje DESC
+[16:41:08] [INFO] RankingController::ver
+[16:41:08] [INFO] SQL: SELECT
+                    (SELECT COUNT(*)
+                     FROM usuario u2
+                     WHERE u2.puntaje > u1.puntaje) + 1 AS posicion,
+                    u1.username,
+                    u1.puntaje
+                FROM usuario u1
+                ORDER BY u1.puntaje DESC
+[16:41:08] [INFO] HomeController::ver
+[16:41:08] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:41:08] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:41:08] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:41:08] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:41:08] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:45:43] [INFO] RankingController::ver
+[16:45:43] [INFO] SQL: SELECT
+                    (SELECT COUNT(*)
+                     FROM usuario u2
+                     WHERE u2.puntaje > u1.puntaje) + 1 AS posicion,
+                    u1.username,
+                    u1.puntaje
+                FROM usuario u1
+                ORDER BY u1.puntaje DESC
+[16:45:43] [INFO] HomeController::ver
+[16:45:43] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:45:43] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:45:43] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:45:43] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:45:43] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:45:52] [INFO] HomeController::ver
+[16:45:52] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:45:52] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:45:52] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:45:52] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:45:52] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:45:52] [INFO] HomeController::ver
+[16:45:52] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:45:52] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:45:52] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:45:52] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:45:52] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:15] [INFO] HomeController::ver
+[16:46:15] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:15] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:15] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:15] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:15] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:15] [INFO] HomeController::ver
+[16:46:15] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:15] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:15] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:15] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:15] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:32] [INFO] HomeController::ver
+[16:46:32] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:32] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:32] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:32] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:32] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:32] [INFO] HomeController::ver
+[16:46:32] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:32] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:32] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:32] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:32] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:33] [INFO] RankingController::ver
+[16:46:33] [INFO] SQL: SELECT
+                    (SELECT COUNT(*)
+                     FROM usuario u2
+                     WHERE u2.puntaje > u1.puntaje) + 1 AS posicion,
+                    u1.username,
+                    u1.puntaje
+                FROM usuario u1
+                ORDER BY u1.puntaje DESC
+[16:46:33] [INFO] HomeController::ver
+[16:46:33] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:33] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:33] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:33] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:33] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:35] [INFO] HomeController::ver
+[16:46:35] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:35] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:35] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:35] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:35] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:35] [INFO] HomeController::ver
+[16:46:35] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:35] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:35] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:35] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:35] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:40] [INFO] HomeController::ver
+[16:46:40] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:40] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:40] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:40] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:40] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:40] [INFO] HomeController::ver
+[16:46:40] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:40] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:40] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:40] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:40] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
+[16:46:46] [INFO] RankingController::ver
+[16:46:46] [INFO] SQL: SELECT
+                    (SELECT COUNT(*)
+                     FROM usuario u2
+                     WHERE u2.puntaje > u1.puntaje) + 1 AS posicion,
+                    u1.username,
+                    u1.puntaje
+                FROM usuario u1
+                ORDER BY u1.puntaje DESC
+[16:46:46] [INFO] HomeController::ver
+[16:46:46] [INFO] SQL: SELECT * FROM usuario LIMIT 1
+[16:46:46] [INFO] SQL: SELECT * FROM partida ORDER BY fecha DESC LIMIT 4
+[16:46:46] [INFO] SQL: SELECT COUNT(*) AS total FROM partida
+[16:46:46] [INFO] SQL: SELECT COUNT(*) AS total FROM partida WHERE resultado = 'VICTORIA'
+[16:46:46] [INFO] SQL: SELECT 
+                    ROUND(
+                        SUM(CASE WHEN resultado = 'VICTORIA' THEN 1 ELSE 0 END) * 100 / COUNT(*)
+                    ) AS porcentaje
+                FROM partida
