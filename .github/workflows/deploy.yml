@@ -1,4 +1,4 @@
-name: Deploy to InfinityFree
+name: Deploy a infinity
 
 on:
   push:
@@ -28,8 +28,8 @@ jobs:
           set ftp:ssl-allow no;
           open -u $FTP_USER,$FTP_PASS $FTP_HOST;
           mirror -R ./ /htdocs/ \
-            --exclude .git* \
-            --exclude .github;
-            --exclude config/config.ini;
+            --exclude-glob .git* \
+            --exclude-glob .github/* \
+            --exclude-glob config/config.ini;
           bye
           "
