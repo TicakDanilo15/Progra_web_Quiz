@@ -30,5 +30,6 @@ jobs:
           mirror -R ./ /htdocs/ \
             --exclude .git* \
             --exclude .github;
+            --exclude config/config.ini;
           bye
           "
